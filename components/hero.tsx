@@ -19,7 +19,7 @@ export default function Hero() {
         </div>
         <div className="flex flex-col gap-4 justify-center items-center text-center md:justify-start md:items-start md:text-start mb-6 md:mb-0">
           <h1 className="text-4xl md:text-5xl font-light text-primary">
-            <p>Somos processos em</p>
+            <p className="whitespace-break-spaces">Somos processos em</p>
             <span className="font-bold">transformação</span>
           </h1>
           <Button

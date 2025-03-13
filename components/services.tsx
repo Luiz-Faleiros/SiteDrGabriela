@@ -16,7 +16,7 @@ export default function Services() {
       <div className="block md:hidden absolute inset-0 bg-cover bg-left" style={{ backgroundImage: "url('/services.png')", backgroundPositionX: '1px' }}>
         <div className="absolute inset-0 bg-primary opacity-50"></div>
       </div>
-      <div className="relative py-6 px-6 md:pl-8 bg-white bg-opacity-90 text-primary ">
+      <div className="relative py-12 md:py-6 px-6 md:pl-8 bg-white bg-opacity-90 text-primary ">
         <h2 className="text-3xl font-medium mb-8">Como posso te ajudar.</h2>
         <div className="max-w-3xl">
           <p className="leading-relaxed mb-6">

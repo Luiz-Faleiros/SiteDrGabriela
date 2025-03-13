@@ -18,7 +18,7 @@ export default function Treatments() {
 
   return (
     <section className="bg-secondary/30 relative" id="tratamentos">
-      <div className="md:hidden absolutWe inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/treatments.png')" }}>
+      <div className="md:hidden absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/treatments.png')" }}>
         <div className="absolute inset-0 bg-primary opacity-50"></div>
       </div>
       <div className="relative py-6 md:py-0 md:pl-8 text-white md:text-primary">
