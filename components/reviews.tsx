@@ -78,7 +78,7 @@ export default function Reviews() {
             ))}
           </div>
           <h3 className="text-xl font-bold">EXCELENTE</h3>
-          <p className="text-sm text-gray-600">Com base em 14 avaliações do Google</p>
+          <p className="text-sm text-gray-600">Com base nas avaliações do Google</p>
         </div>
         <Carousel
           className="relative w-full"
