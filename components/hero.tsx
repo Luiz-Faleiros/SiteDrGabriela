@@ -8,7 +8,7 @@ export default function Hero() {
       {/* Gradient in the background on mobile */}
       <div className="md:hidden absolute top-[15%] left-0 w-full h-[85%] bg-gradient-to-b from-white to-[#ebe5da] z-0"></div>
       <div className="container mx-auto px-10 flex items-center flex-wrap md:flex-nowrap justify-center md:justify-start relative z-10">
-        <div className="flex items-center gap-4 mb-8 pr-4">
+        <div className="flex items-center gap-4 mb-8 md:pr-4">
           <Image
             src="/logo.png"
             alt="Logo"
