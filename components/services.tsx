@@ -10,7 +10,7 @@ export default function Services() {
           alt="Serviços"
           width={400}
           height={400}
-          className=""
+          className="h-full"
         />
       </div>
       <div className="block md:hidden absolute inset-0 bg-cover bg-left" style={{ backgroundImage: "url('/services.png')", backgroundPositionX: '1px' }}>
