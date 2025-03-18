@@ -6,7 +6,7 @@ export default function Profile() {
     <section id="profile" className="relative py-16 px-6 bg-[#ebe5da]">
       <div className="container mx-auto bg-tertiary rounded-lg p-4 md:p-10">
         <div className="items-center flex flex-wrap md:flex-nowrap justify-center">
-          <div className="flex md:hidden -mt-36">
+          <div className="flex md:hidden -mt-36 z-[60]">
             <Image
               src="/profile.png"
               alt="Dra. Gabriela Cardozo"
@@ -32,7 +32,7 @@ export default function Profile() {
               e tratamentos que vão além do uso da medicação.
             </p>
           </div>
-          <div className="-mt-36 hidden md:flex">
+          <div className="-mt-36 hidden md:flex z-[60]">
             <Image
               src="/profile.png"
               alt="Dra. Gabriela Cardozo"
